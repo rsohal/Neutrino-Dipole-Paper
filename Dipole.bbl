@@ -1,0 +1,101 @@
+\begin{thebibliography}{7}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{{Zhu} et~al.}(2014{\natexlab{a}})\citenamefont{{Zhu},
+  {Pen}, {Chen}, {Inman}, and {Yu}}}]{bib:Zhu2013}
+\bibinfo{author}{\bibfnamefont{H.-M.} \bibnamefont{{Zhu}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Inman}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{{Yu}}},
+  \bibinfo{journal}{Physical Review Letters} \textbf{\bibinfo{volume}{113}},
+  \bibinfo{eid}{131301} (\bibinfo{year}{2014}{\natexlab{a}}),
+  \eprint{1311.3422}.
+
+\bibitem[{\citenamefont{{Zhu} et~al.}(2014{\natexlab{b}})\citenamefont{{Zhu},
+  {Pen}, {Chen}, and {Inman}}}]{bib:Zhu2014}
+\bibinfo{author}{\bibfnamefont{H.-M.} \bibnamefont{{Zhu}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Inman}}},
+  \bibinfo{journal}{ArXiv e-prints}  (\bibinfo{year}{2014}{\natexlab{b}}),
+  \eprint{1412.1660}.
+
+\bibitem[{\citenamefont{{Inman} et~al.}(2015)\citenamefont{{Inman}, {Emberson},
+  {Pen}, {Farchi}, {Yu}, and {Harnois-Deraps}}}]{bib:Inman}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Inman}}},
+  \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{{Emberson}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Farchi}}},
+  \bibinfo{author}{\bibfnamefont{H.-R.} \bibnamefont{{Yu}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Harnois-Deraps}}},
+  \bibinfo{journal}{ArXiv e-prints}  (\bibinfo{year}{2015}),
+  \eprint{1503.07480}.
+
+\bibitem[{\citenamefont{{Harnois-D{\'e}raps}
+  et~al.}(2013)\citenamefont{{Harnois-D{\'e}raps}, {Pen}, {Iliev}, {Merz},
+  {Emberson}, and {Desjacques}}}]{bib:HarnoisDeraps2013}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Harnois-D{\'e}raps}}},
+  \bibinfo{author}{\bibfnamefont{U.-L.} \bibnamefont{{Pen}}},
+  \bibinfo{author}{\bibfnamefont{I.~T.} \bibnamefont{{Iliev}}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{{Merz}}},
+  \bibinfo{author}{\bibfnamefont{J.~D.} \bibnamefont{{Emberson}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{{Desjacques}}},
+  \bibinfo{journal}{\mnras} \textbf{\bibinfo{volume}{436}},
+  \bibinfo{pages}{540} (\bibinfo{year}{2013}), \eprint{1208.5098}.
+
+\bibitem[{\citenamefont{Blas et~al.}(2011)\citenamefont{Blas, Lesgourgues, and
+  Tram}}]{bib:Blas}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Blas}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Lesgourgues}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Tram}},
+  \bibinfo{journal}{Journal of Cosmology and Astroparticle Physics}
+  \textbf{\bibinfo{volume}{2011}}, \bibinfo{pages}{034} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{{Planck Collaboration}
+  et~al.}(2015)\citenamefont{{Planck Collaboration}, {Ade}, {Aghanim},
+  {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Banday}, {Barreiro},
+  {Bartlett} et~al.}}]{bib:Planck2015}
+\bibinfo{author}{\bibnamefont{{Planck Collaboration}}},
+  \bibinfo{author}{\bibfnamefont{P.~A.~R.} \bibnamefont{{Ade}}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Aghanim}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Arnaud}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Ashdown}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Aumont}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Baccigalupi}}},
+  \bibinfo{author}{\bibfnamefont{A.~J.} \bibnamefont{{Banday}}},
+  \bibinfo{author}{\bibfnamefont{R.~B.} \bibnamefont{{Barreiro}}},
+  \bibinfo{author}{\bibfnamefont{J.~G.} \bibnamefont{{Bartlett}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
+  (\bibinfo{year}{2015}), \eprint{1502.01589}.
+
+\bibitem[{\citenamefont{Loken et~al.}(2010)\citenamefont{Loken, Gruner, Groer,
+  Peltier, Bunn, Craig, Henriques, Dempsey, Yu, Chen et~al.}}]{bib:Loken}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Loken}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Gruner}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Groer}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Peltier}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Bunn}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Craig}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Henriques}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Dempsey}},
+  \bibinfo{author}{\bibfnamefont{C.-H.} \bibnamefont{Yu}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Chen}}, \bibnamefont{et~al.},
+  \bibinfo{journal}{Journal of Physics: Conference Series}
+  \textbf{\bibinfo{volume}{256}}, \bibinfo{pages}{012026}
+  (\bibinfo{year}{2010}),
+  \urlprefix\url{http://stacks.iop.org/1742-6596/256/i=1/a=012026}.
+
+\end{thebibliography}

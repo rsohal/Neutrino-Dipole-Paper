@@ -1,0 +1,53 @@
+%
+\documentclass[usenatbib,nofootinbib,twocolumn,superscriptaddress]{revtex4}
+%\documentclass[usenatbib,nofootinbib]{mn2e}
+
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{aas_macros}
+\usepackage{color}
+
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\newcommand{\cpm}{{\small CUBEP$^3$M}}
+\newcommand{\hfit}{{\small HALOFIT}}
+\newcommand{\camb}{{\small CAMB}}
+\newcommand{\class}{\small CLASS}
+\newcommand{\mpc}{\mbox{Mpc}}
+\newcommand{\mpch}{\mbox{Mpc}/\mbox{h}}
+\newcommand{\hmpc}{\mbox{h}/\mbox{Mpc}}
+\newcommand{\ev}{{\rm eV}}
+\newcommand{\kms}{{\rm km}/{\rm s}}
+
+\begin{document}
+\title{Neutrino Dipole Draft}
+\author{Ramanjit Sohal}
+\affiliation{Canadian Institute for Theoretical Astrophysics,
+University of Toronto, 60 St. George St., Toronto, ON M5S 3H8, Canada}
+\affiliation{Department of Physics, University
+of Toronto, 60 St. George, Toronto, ON M5S 1A7, Canada}
+\author{TODO: Add authors}
+\affiliation{TODO: add affiliations}
+\input{./input/abstract.tex}
+
+\maketitle
+
+\input{./input/introduction.tex}
+
+\input{./input/method.tex}
+
+\input{./input/results.tex}
+
+\input{./input/discussion.tex}
+
+\input{./input/conclusion.tex}
+
+\input{./input/acknowledgements.tex}
+
+\nocite{*}
+\bibliographystyle{apsrev}
+\bibliography{thebib}
+
+\end{document}  
