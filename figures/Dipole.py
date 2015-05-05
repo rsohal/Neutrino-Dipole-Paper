@@ -17,10 +17,21 @@ fig_size      = [fig_width, fig_height]
 params        = {'backend': 'ps', 'axes.labelsize': fs, 'text.fontsize': fs, \
                 'legend.fontsize': fs2, 'xtick.labelsize': fs, 'ytick.labelsize': fs, \
                 'text.usetex': True, 'figure.figsize': fig_size}
-dip1 = np.genfromtxt(dir+'0.2ev_dmnu_velbin1_dipo.dat', skip_header=9)
-dip2 = np.genfromtxt(dir+'0.2ev_dmnu_velbin2_dipo.dat', skip_header=9)
-dip3 = np.genfromtxt(dir+'0.2ev_dmnu_velbin3_dipo.dat', skip_header=9)
-dip4 = np.genfromtxt(dir+'0.2ev_dmnu_velbin4_dipo.dat', skip_header=9)
+
+xmin=5
+xmax=1e2
+ymin=1e-4
+ymax=1e-2
+
+#dip1 = np.genfromtxt(dir+'0.2ev_dmnu_velbin1_dipo.dat', skip_header=9)
+#dip2 = np.genfromtxt(dir+'0.2ev_dmnu_velbin2_dipo.dat', skip_header=9)
+#dip3 = np.genfromtxt(dir+'0.2ev_dmnu_velbin3_dipo.dat', skip_header=9)
+#dip4 = np.genfromtxt(dir+'0.2ev_dmnu_velbin4_dipo.dat', skip_header=9)
+
+dip1 = np.genfromtxt(dir+'dipole_1tf_0.dat', skip_header=9)
+dip2 = np.genfromtxt(dir+'dipole_2tf_0.dat', skip_header=9)
+dip3 = np.genfromtxt(dir+'dipole_3tf_0.dat', skip_header=9)
+dip4 = np.genfromtxt(dir+'dipole_4tf_0.dat', skip_header=9)
 
 py.rcParams.update(params)
 py.figure(1)
@@ -31,7 +42,9 @@ py.loglog(dip3[:,0], dip3[:,1], label=r"$7853-11280 km/s$")
 py.loglog(dip4[:,0], dip4[:,1], label=r"$>11280 km/s$")
 
 py.xlabel(r"$r\ [{\rm Mpc}/h]$")
+py.axes().set_xlim((xmin,xmax))
 py.ylabel(r"Dipole Correlation")
+py.axes().set_ylim((ymin,ymax))
 lg = py.legend(loc="lower left", fancybox=True, numpoints=1)
 lg.draw_frame(False)
 
