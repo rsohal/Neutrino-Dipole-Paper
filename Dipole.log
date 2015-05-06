@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.4.3)  5 MAY 2015 11:52
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.4.3)  5 MAY 2015 15:28
 entering extended mode
  %&-line parsing enabled.
 **Dipole
@@ -195,7 +195,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 62--63
 File: ./figures/DensityPowerSpectra/denpower.pdf Graphic file (type pdf)
 
 <use ./figures/DensityPowerSpectra/denpower.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 36--37
+Overfull \hbox (9.0pt too wide) in paragraph at lines 35--36
  [] 
  []
 
@@ -203,48 +203,49 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 36--37
 File: ./figures/VelPowerSpectra/velpower.pdf Graphic file (type pdf)
 
 <use ./figures/VelPowerSpectra/velpower.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 46--47
+Overfull \hbox (9.0pt too wide) in paragraph at lines 45--46
  [] 
  []
 
-<./figures/Dipole/dipolefig.pdf, id=19, 350.00002pt x 297.5pt>
-File: ./figures/Dipole/dipolefig.pdf Graphic file (type pdf)
-
-<use ./figures/Dipole/dipolefig.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 57--58
- [] 
- []
-
-) (./input/discussion.tex) (./input/conclusion.tex [2 <./figures/fdwindow.pdf
+[2 <./figures/fdwindow.pdf
 
 pdfTeX warning: pdflatex (file ./figures/fdwindow.pdf): PDF inclusion: Page Gro
 up detected which pdfTeX can't handle. Ignoring it.
 > <./figures/DensityPowerSpectra/denpower.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 1.
+ on input line 64.
 
-) (./input/acknowledgements.tex) (./Dipole.bbl [3 <./figures/VelPowerSpectra/ve
-lpower.pdf> <./figures/Dipole/dipolefig.pdf>]) [4] (./Dipole.aux) ) 
+<./figures/Dipole/dipolefig.pdf, id=76, 350.00002pt x 297.5pt>
+File: ./figures/Dipole/dipolefig.pdf Graphic file (type pdf)
+
+<use ./figures/Dipole/dipolefig.pdf>
+Overfull \hbox (9.0pt too wide) in paragraph at lines 69--70
+ [] 
+ []
+
+) (./input/discussion.tex) (./input/conclusion.tex)
+(./input/acknowledgements.tex) [3 <./figures/VelPowerSpectra/velpower.pdf> <./f
+igures/Dipole/dipolefig.pdf>] (./Dipole.bbl) [4] (./Dipole.aux) ) 
 Here is how much of TeX's memory you used:
- 2856 strings out of 256216
- 34917 string characters out of 1917073
- 96750 words of memory out of 1500000
- 6105 multiletter control sequences out of 10000+200000
+ 2855 strings out of 256216
+ 34905 string characters out of 1917073
+ 95750 words of memory out of 1500000
+ 6104 multiletter control sequences out of 10000+200000
  10224 words of font info for 40 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 29i,12n,24p,368b,329s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/
-texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/c
-m/cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/tex
-mf/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cm
-r10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fon
-ts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb>
-</usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti7.pfb></us
-r/share/texmf/fonts/type1/bluesky/cm/cmti9.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Dipole.pdf (4 pages, 319266 bytes).
+ 29i,12n,24p,381b,329s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/te
+xmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf
+/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
+0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti7.pfb></usr/
+share/texmf/fonts/type1/bluesky/cm/cmti9.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Dipole.pdf (4 pages, 323489 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
