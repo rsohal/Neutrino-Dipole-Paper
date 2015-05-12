@@ -20,7 +20,7 @@ params        = {'backend': 'ps', 'axes.labelsize': fs, 'text.fontsize': fs, \
 xmin= 1e-2
 xmax= 1e1
 ymin= 1e-4
-ymax= 1e0
+ymax= 0.5e0
 
 nunu1 = np.genfromtxt(dir+'0.000ngpps_1_nunu.dat')
 nunu2 = np.genfromtxt(dir+'0.000ngpps_2_nunu.dat')

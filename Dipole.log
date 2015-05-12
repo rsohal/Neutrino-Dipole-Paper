@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.4.3)  5 MAY 2015 15:28
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.4.3)  8 MAY 2015 21:29
 entering extended mode
  %&-line parsing enabled.
 **Dipole
@@ -132,6 +132,17 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen104
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen105
+\extrarowheight=\dimen106
+\NC@list=\toks18
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
 
 LaTeX Warning: Unused global option(s):
     [usenatbib].
@@ -139,44 +150,44 @@ LaTeX Warning: Unused global option(s):
 (./Dipole.aux)
 \openout1 = `Dipole.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-Class revtex4 Info: Patching LaTeX tabular. on input line 24.
-Class revtex4 Info: cite was not loaded (OK!) on input line 24.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+Class revtex4 Info: Patching array package. on input line 28.
+Class revtex4 Info: cite was not loaded (OK!) on input line 28.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 28.
  (/usr/share/texmf/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count94
-\scratchdimen=\dimen104
+\scratchdimen=\dimen107
 \scratchbox=\box34
 \nofMPsegments=\count95
 \nofMParguments=\count96
 \MPscratchCnt=\count97
-\MPscratchDim=\dimen105
+\MPscratchDim=\dimen108
 \MPnumerator=\count98
-\everyMPtoPDFconversion=\toks18
+\everyMPtoPDFconversion=\toks19
 ) (./input/abstract.tex)
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
  (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ) (./input/introduction.tex)
 (./input/method.tex
-Underfull \hbox (badness 6252) in paragraph at lines 14--20
+Underfull \hbox (badness 6252) in paragraph at lines 15--21
 \OT1/cmr/m/n/10 From this, a ve-loc-ity po-ten-tial $\OML/cmm/m/it/10 ^^^[]\OT1
 /cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )$ sat-is-fy-ing
  []
@@ -186,7 +197,7 @@ Underfull \hbox (badness 6252) in paragraph at lines 14--20
 File: ./figures/fdwindow.pdf Graphic file (type pdf)
 
 <use ./figures/fdwindow.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 62--63
+Overfull \hbox (9.0pt too wide) in paragraph at lines 65--66
  [] 
  []
 
@@ -195,7 +206,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 62--63
 File: ./figures/DensityPowerSpectra/denpower.pdf Graphic file (type pdf)
 
 <use ./figures/DensityPowerSpectra/denpower.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 35--36
+Overfull \hbox (9.0pt too wide) in paragraph at lines 37--38
  [] 
  []
 
@@ -203,51 +214,65 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 35--36
 File: ./figures/VelPowerSpectra/velpower.pdf Graphic file (type pdf)
 
 <use ./figures/VelPowerSpectra/velpower.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 45--46
+Overfull \hbox (9.0pt too wide) in paragraph at lines 47--48
  [] 
  []
 
-[2 <./figures/fdwindow.pdf
 
-pdfTeX warning: pdflatex (file ./figures/fdwindow.pdf): PDF inclusion: Page Gro
-up detected which pdfTeX can't handle. Ignoring it.
-> <./figures/DensityPowerSpectra/denpower.pdf>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./figures/fdwindow.pdf> <./figures/DensityPowerSpectra/denpower.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 64.
+ on input line 79.
 
-<./figures/Dipole/dipolefig.pdf, id=76, 350.00002pt x 297.5pt>
+<./figures/Dipole/alldipolefig.pdf, id=81, 350.00002pt x 297.5pt>
+File: ./figures/Dipole/alldipolefig.pdf Graphic file (type pdf)
+
+<use ./figures/Dipole/alldipolefig.pdf>
+Overfull \hbox (9.0pt too wide) in paragraph at lines 108--109
+ [] 
+ []
+
+<./figures/Dipole/dipolefig.pdf, id=82, 350.00002pt x 481.35501pt>
 File: ./figures/Dipole/dipolefig.pdf Graphic file (type pdf)
 
 <use ./figures/Dipole/dipolefig.pdf>
-Overfull \hbox (9.0pt too wide) in paragraph at lines 69--70
+Overfull \hbox (9.0pt too wide) in paragraph at lines 119--120
  [] 
  []
 
-) (./input/discussion.tex) (./input/conclusion.tex)
-(./input/acknowledgements.tex) [3 <./figures/VelPowerSpectra/velpower.pdf> <./f
-igures/Dipole/dipolefig.pdf>] (./Dipole.bbl) [4] (./Dipole.aux) ) 
+) (./input/discussion.tex [3 <./figures/VelPowerSpectra/velpower.pdf> <./figure
+s/Dipole/alldipolefig.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 23.
+
+) (./input/conclusion.tex) (./input/acknowledgements.tex) (./Dipole.bbl)
+[4 <./figures/Dipole/dipolefig.pdf>] (./Dipole.aux) ) 
 Here is how much of TeX's memory you used:
- 2855 strings out of 256216
- 34905 string characters out of 1917073
- 95750 words of memory out of 1500000
- 6104 multiletter control sequences out of 10000+200000
+ 2900 strings out of 256216
+ 35671 string characters out of 1917073
+ 97598 words of memory out of 1500000
+ 6141 multiletter control sequences out of 10000+200000
  10224 words of font info for 40 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 29i,12n,24p,381b,329s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/te
-xmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
-cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf
-/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
-0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts
-/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></
-usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti7.pfb></usr/
-share/texmf/fonts/type1/bluesky/cm/cmti9.pfb></usr/share/texmf/fonts/type1/blue
-sky/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Dipole.pdf (4 pages, 323489 bytes).
+ 28i,12n,24p,455b,376s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx9.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi7.pfb></usr/
+share/texmf/fonts/type1/bluesky/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm
+/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/f
+onts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6
+.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmti7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti9.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmtt9.pfb>
+Output written on Dipole.pdf (4 pages, 303769 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 188 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

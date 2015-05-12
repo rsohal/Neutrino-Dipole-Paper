@@ -8,6 +8,8 @@
 \usepackage{epstopdf}
 \usepackage{aas_macros}
 \usepackage{color}
+\usepackage{multirow}
+\usepackage{array}
 
 %\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -20,16 +22,18 @@
 \newcommand{\hmpc}{\mbox{h}/\mbox{Mpc}}
 \newcommand{\ev}{{\rm eV}}
 \newcommand{\kms}{{\rm km}/{\rm s}}
+\setlength{\extrarowheight}{5pt} 
+\setlength{\arraycolsep}{20pt}
 
 \begin{document}
-\title{Neutrino Dipole Draft}
+\title{CTA395 Report: Calculation of Dipole Correlation Functions of Energy Binned Neutrinos}
 \author{Ramanjit Sohal}
 \affiliation{Canadian Institute for Theoretical Astrophysics,
 University of Toronto, 60 St. George St., Toronto, ON M5S 3H8, Canada}
 \affiliation{Department of Physics, University
 of Toronto, 60 St. George, Toronto, ON M5S 1A7, Canada}
-\author{TODO: Add authors}
-\affiliation{TODO: add affiliations}
+%\author{TODO: Add authors}
+%\affiliation{TODO: add affiliations}
 \input{./input/abstract.tex}
 
 \maketitle

@@ -2,11 +2,12 @@
   \label{sec:method}
 
 In our study we make use of the N-body simulation code 
-\cpm and follow the implementation in \cite{bib:Inman}. 
-Density transfer functions, $T_\delta$ are obtained 
-using \camb. The initial velocities of the neutrinos are 
-comprised of a linear and thermal part. To compute the former, 
-we assume that the initial conditions are adiabatic and linear 
+\cpm{} and follow the implementation in \cite{bib:Inman}. 
+For generating initial conditions, we use density transfer 
+functions, $T_\delta$ obtained from \camb{}. The initial 
+velocities of the neutrinos are comprised of a linear 
+and thermal part. To compute the former, we assume that 
+the initial conditions are adiabatic and linear 
 so that we may use the linear neutrino velocity transfer 
 function defined as
 \begin{equation}
@@ -15,21 +16,23 @@ function defined as
 From this, a velocity potential $\phi_{v}(k)$ satisfying 
 $i\overrightarrow{k}\phi_{v}(k)=(T_v/T_\delta)\delta\hat{k}$ 
 is obtained from which the linear velocity may be computed 
-using a real-space gradient. The thermal component is 
-calculated using the relativistic Fermi-Dirac distribution. 
+using a real-space gradient. The thermal component of the 
+velocity is calculated using the relativistic Fermi-Dirac distribution. 
 
 \par To limit slowdown of the simulation, cold dark matter is 
 introduced at $z=100$ whereas neutrinos are introduced 
 at $z=10$. The two species are then allowed to evolve together 
 identically up to $z=0$, save for their masses which are weighted by their
-energy fraction and number ratio. Additionally, at $z=10$ we divide the neutrinos 
-into four bins based on their velocity such that each bin contains an equal 
-number of particles as per the Fermi-Dirac distribution; these 
-velocity bins serve as an indicator of the initial energies of 
-the neutrinos. The lower bounds used for these velocity bins 
-are: $0\,km/s, 5214\,km/s, 7853\, km/s, 11280\,km/s$. In order 
-to determine in which velocity bin each neutrino began at later 
-times, a unique 8-byte particle identifier tag is assigned to each neutrino. 
+energy fraction and number ratio. Additionally, at $z=10$ we 
+divide the neutrinos into four bins - $Q_i$, $i=1,2,3,4$ - based 
+on their velocity such that each bin contains an equal 
+number of particles as per the Fermi-Dirac distribution (e.g. 
+$Q_1$ contains neutrinos whose velocities are in the first quartile). 
+The lower bounds used for these velocity bins 
+are: $0\,\kms{}, 5214\,\kms{}, 7853\, \kms{}, 11280\,\kms{}$. 
+In order to determine at later times in which velocity bin 
+each neutrino began, a unique 8-byte particle identifier tag is 
+assigned to each neutrino. 
 
 % Velocity Fields
 \par In order to compute the dipole correlation function at $z=0$, we
@@ -52,10 +55,10 @@ give an accurate representation of the actual large-scale velocity
 field in the simulation. In order to apply this reconstruction 
 to each neutrino velocity bin, we produce window functions for
 each bin as shown in Fig. \ref{fig:fdwindow} using a Fermi-Dirac
-distribution. We pass these window functions to CLASS to
-produce transfer functions for each bin \cite{bib:Blas}; the 
-windows are constructed such that $n_{eff}$ remains constant 
-and is consistent with a neutrino cosmology.
+distribution. We pass these window functions to \class{} to
+produce transfer functions for each bin \cite{bib:Blas}.
+%the windows are constructed such that $n_{eff}$ remains constant 
+%and is consistent with a neutrino cosmology.
 
 \begin{figure}[tbp]
   \begin{center}
@@ -63,13 +66,12 @@ and is consistent with a neutrino cosmology.
     \caption{Window functions passed to CLASS to produce transfer functions.
 	     Solid black lines indicate the bounds of each velocity bin. The dotted
 	     curve indicates the total Fermi-Dirac distribution and the dashed lines
-	     are the window functions used for each velocity bin.}
+	     are the window functions used for each velocity bin. Here, $m=0.2\ev{}$ and $T$ 
+	     are the neutrino mass and temperature, respectively..}
     \label{fig:fdwindow}
   \end{center}
 \end{figure}
    
-
-% Dipole Correlation Calculation
-TODO: Add dipole calculation
+% Dipole Correlation Calculation; leave empty for now
 
 \end{section}
